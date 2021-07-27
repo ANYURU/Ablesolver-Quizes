@@ -1,16 +1,16 @@
 /**
- * A falsy value is something which evaluates to FALSE, for instance when checking a variable.
- * There are only six falsy values in JavaScript: undefined, null, NaN, 0, "" (empty string), and false of course.
+ * A falsy value is something which evaluates to FALSE.
+ * There are only six falsy values in JavaScript: undefined, null, NaN, 0, "", and false.
  */
 
 /**
  * @function determineFalsy - Takes in a variable determines if its falsy. 
- * @param {any} variable 
- * @returns returns true if a true if a value is falsy() and false otherwise
+ * @param {any} input - Input can be of any datatype acceptable in Javascript  
+ * @returns {boolean} - Returns true if the input is falsy and false if the input is truthy.
  */
 
-let determineFalsy = (variable) => { 
-    if(variable) return false;
+let determineFalsy = (input) => { 
+    if(input) return false;
     return true;
 }
 
