@@ -5,7 +5,7 @@
 
 /**
  * @function determineFalsy - Takes in a variable determines if its falsy. 
- * @param {any} input - Input can be of any datatype acceptable in Javascript  
+ * @param {any} input - Input can be of any datatype acceptable in Javascript. 
  * @returns {boolean} - Returns true if the input is falsy and false if the input is truthy.
  */
 
