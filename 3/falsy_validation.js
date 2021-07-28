@@ -8,7 +8,7 @@
  * @param {any} input - Input can be of any datatype acceptable in Javascript. 
  * @returns {boolean} - Returns true if the input is falsy and false if the input is truthy.
  */
-/*
+
 
 let determineFalsy = (input) => { 
     return input ? false: true;
